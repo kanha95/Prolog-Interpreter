@@ -3,8 +3,8 @@
 % < denotes implication operator
 % > denotes biconditional operator
 % - denotes negation operator
-% Query solve((p + -q) ^ (q ^ -r) ^ (r < p)).
-% solve(-(p < (q < p))).
+% Query:- tableau((p + -q) ^ (q ^ -r) ^ (r < p)).
+% tableau(-(p < (q < p))).
 
 
 :- op(41, fy, '-').
